@@ -1,3 +1,6 @@
 [submodule "ultralytics"]
 	path = ultralytics
 	url = git@github.com:ultralytics/ultralytics.git
+[submodule "dataset/fgvc-comp-2023"]
+	path = dataset/fgvc-comp-2023
+	url = git@github.com:fathomnet/fgvc-comp-2023.git
