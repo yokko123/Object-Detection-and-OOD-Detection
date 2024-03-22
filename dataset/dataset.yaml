@@ -1,0 +1,297 @@
+path: /baie/nfs-cluster-1/mundus/mrahman528/thesis/fgvc-comp-2023/dataset  # dataset root dir
+train: /mundus/mrahman528/thesis/fgvc-comp-2023/dataset/images/train
+val: /baie/nfs-cluster-1/mundus/mrahman528/thesis/fgvc-comp-2023/dataset/images/val
+test: /mundus/mrahman528/thesis/fgvc-comp-2023/eval_images
+
+# Classes
+names:
+    0: Actiniaria
+    1: Actinernus
+    2: Actiniidae
+    3: Actinoscyphia
+    4: Bolocera
+    5: Dofleinia
+    6: Hormathiidae
+    7: Isosicyonis
+    8: Liponema brevicorne
+    9: Metridium farcimen
+    10: Actinopterygii
+    11: Agonidae
+    12: Albatrossia pectoralis
+    13: Alepocephalus tenebrosus
+    14: Anarrhichthys ocellatus
+    15: Anoplopoma fimbria
+    16: Antimora microlepis
+    17: Bathypterois
+    18: Bathysaurus mollis
+    19: Careproctus
+    20: Careproctus kamikawai
+    21: Careproctus melanurus
+    22: Careproctus ovigerus
+    23: Cataetyx
+    24: Chaunacops coloratus
+    25: Chilara taylori
+    26: Coryphaenoides
+    27: Gobiidae
+    28: Icelinus
+    29: Icelinus filamentosus
+    30: Lepidion
+    31: Liparidae
+    32: Lophiiformes
+    33: Luciobrotula
+    34: Lumpenus sagitta
+    35: Macrouridae
+    36: Merluccius productus
+    37: Moridae
+    38: Myctophidae
+    39: Nezumia liolepis
+    40: Nezumia stelgidolepis
+    41: Ophidiidae
+    42: Ophiodon elongatus
+    43: Paralepididae
+    44: Paraliparis
+    45: Plectobranchus evides
+    46: Porichthys mimeticus
+    47: Psychrolutes phrictus
+    48: Psychrolutidae
+    49: Scorpaeniformes
+    50: Sebastes
+    51: Sebastolobus
+    52: Spectrunculus grandis
+    53: Xeneretmus
+    54: Zaniolepis frenata
+    55: Zaniolepis latipinnis
+    56: Anguilliformes
+    57: Nettastoma parviceps
+    58: Ophichthus frontalis
+    59: Synaphobranchidae
+    60: Eptatretus
+    61: Bothrocara brunneum
+    62: Eucryphycus californicus
+    63: Lycenchelys
+    64: Lycenchelys crotalinus
+    65: Lycodapus
+    66: Lycodes
+    67: Lycodes brevipes
+    68: Lycodes cortezianus
+    69: Lycodes diapterus
+    70: Lycodes pacificus
+    71: Pachycara bulbiceps
+    72: Zoarcidae
+    73: Aeolidiidae sp. 1
+    74: Akoya platinum
+    75: Bathybembix
+    76: Bathydoris aioca
+    77: Buccinidae
+    78: Caenogastropoda
+    79: Dendronotus patricki
+    80: Gastropoda
+    81: Neptunea-Buccinum Complex
+    82: Nudibranchia
+    83: Patellogastropoda
+    84: Pleurobranchaea californica
+    85: Tritonia tetraquetra
+    86: Ziminella vrijenhoeki
+    87: Asteroidea
+    88: Asthenactis
+    89: Astropecten
+    90: Benthopecten
+    91: Ceramaster
+    92: Crossaster
+    93: Dipsacaster eximius
+    94: Dytaster gilberti
+    95: Forcipulatida
+    96: Goniasteridae
+    97: Henricia
+    98: Solasteridae
+    99: Hippasteria
+    100: Hymenaster
+    101: Lophaster
+    102: Luidia foliolata
+    103: Mediaster
+    104: Mediaster aequalis
+    105: Mediaster tenellus
+    106: Myxoderma
+    107: Myxoderma platyacanthum
+    108: Myxoderma sacculatum
+    109: Patiria miniata
+    110: Paulasterias mcclaini
+    111: Paxillosida
+    112: Peribolaster biserialis
+    113: Poraniopsis
+    114: Poraniopsis inflata
+    115: Pterasteridae
+    116: Pycnopodia helianthoides
+    117: Pythonaster pacificus
+    118: Rathbunaster californicus
+    119: Stylasterias forreri
+    120: Thrissacanthias penicillatus
+    121: Valvatida
+    122: Zoroasteridae
+    123: Antedonidae
+    124: Crinoidea
+    125: Bathycrinidae
+    126: Bathymetrinae
+    127: Hyocrinidae
+    128: Pentametrocrinus paucispinulus
+    129: Abyssocucumis abyssorum
+    130: Apostichopus
+    131: Apostichopus californicus
+    132: Apostichopus leukothele
+    133: Benthodytes
+    134: Benthothuria
+    135: Elpidia
+    136: Holothuria (Vaneyothuria) zacae
+    137: Holothuroidea
+    138: Laetmogone
+    139: Oneirophanta mutabilis complex
+    140: Paelopatides confundens
+    141: Pannychia
+    142: Peniagone
+    143: Pseudostichopus mollis
+    144: Psolidae
+    145: Psolus squamatus
+    146: Psychronaetes
+    147: Psychropotes depressa
+    148: Psychropotidae
+    149: Scotoplanes
+    150: Synallactes
+    151: Aporocidaris milleri
+    152: Brisaster
+    153: Cystechinus giganteus
+    154: Cystechinus loveni
+    155: Cystocrepis setigera
+    156: Echinoidea
+    157: Echinocrepis rostrata
+    158: Echinothuriidae
+    159: Strongylocentrotus fragilis
+    160: Tromikosoma
+    161: Acanthascinae
+    162: Bathydorus
+    163: Bolosominae
+    164: Caulophacus
+    165: Chonelasma
+    166: Corbitellinae
+    167: Dictyocalyx
+    168: Docosaccus maculatus
+    169: Euplectellidae
+    170: Farrea
+    171: Farrea truncata complex
+    172: Heterochone calyx
+    173: Hexactinellida
+    174: Hyalonema
+    175: Hyalonema (Corynonema) populiferum
+    176: Hyalonema (Oonema) bianchoratum
+    177: Lyssacinosida sp. 1
+    178: Regadrella
+    179: Rossellidae
+    180: Sclerothamnopsis
+    181: Staurocalyptus
+    182: Staurocalyptus solidus
+    183: yellow ruffled sponge
+    184: Calyptrophora
+    185: Chrysogorgia
+    186: Chrysogorgia monticola
+    187: Chrysogorgia pinnata
+    188: Iridogorgia
+    189: Isidella
+    190: Isidella tentaculum
+    191: Isididae
+    192: Keratoisis
+    193: Lepidisis
+    194: Parastenella
+    195: Primnoidae
+    196: Acanthogorgia
+    197: Gorgoniidae
+    198: Leptogorgia
+    199: Plexauridae
+    200: Swiftia
+    201: Swiftia kofoidi
+    202: Swiftia simplex
+    203: Corallium
+    204: Paragorgiidae
+    205: Paragorgia arborea
+    206: Alcyoniidae
+    207: Bathyalcyon robustum
+    208: Gersemia juliepackardae
+    209: Heteropolypus
+    210: Heteropolypus ritteri
+    211: Clavularia
+    212: Stolonifera
+    213: Acanthoptilum
+    214: Anthoptilum grandiflorum
+    215: Anthoptilum lithophilum
+    216: Distichoptilum gracile
+    217: Funiculina
+    218: Funiculina-Halipteris complex
+    219: Halipteris californica
+    220: Kophobelemnidae
+    221: Pennatula
+    222: Pennatula phosphorea
+    223: Pennatulacea
+    224: Protoptilum
+    225: Ptilosarcus gurneyi
+    226: Stylatula
+    227: Umbellula
+    228: Virgulariidae
+    229: Desmophyllum dianthus
+    230: Fungiacyathus (Bathyactis) marenzelleri
+    231: Scleractinia
+    232: Alternatipathes
+    233: Antipatharia
+    234: Heteropathes
+    235: Lillipathes
+    236: Parantipathes
+    237: Schizopathidae
+    238: Umbellapathes
+    239: Brachyura
+    240: Cancridae
+    241: Chionoecetes tanneri
+    242: Chorilia longipes
+    243: Macroregonia macrochira
+    244: Majidae
+    245: Metacarcinus magister
+    246: Lithodes couesi
+    247: Lithodidae
+    248: Neolithodes diomedeae
+    249: Paralithodes rathbuni
+    250: Paralomis
+    251: Paralomis cf. papillata
+    252: Paralomis multispina
+    253: Paralomis verrilli
+    254: Caridea
+    255: Eualus macrophthalmus
+    256: Pandalus
+    257: Pandalus ampla
+    258: Pandalus platyceros
+    259: Pasiphaea
+    260: Plesionika
+    261: Calocarides quinqueseriatus
+    262: Chirostylidae
+    263: Galatheoidea
+    264: Munida
+    265: Munida bapensis
+    266: Munida quadrispina
+    267: Munidopsis
+    268: Munidopsis depressa
+    269: Munidopsis kensmithi
+    270: Munidopsis lignaria
+    271: Munidopsis recta
+    272: Munidopsis scotti
+    273: Pleuroncodes planipes
+    274: Cirripedia
+    275: Scalpellidae
+    276: Verum proximum
+    277: Pycnogonida
+    278: Annelida
+    279: Canalipalpata
+    280: Echiura
+    281: Harmothoe
+    282: Hirudinea
+    283: Paradiopatra
+    284: Peinaleopolynoe orphanae
+    285: Polychaeta
+    286: Polynoidae
+    287: Sabellidae
+    288: Serpulidae
+    289: Terebellidae
